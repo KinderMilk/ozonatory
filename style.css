@@ -1,0 +1,50 @@
+body
+{
+    margin:0;
+    font-family: Montserrat;
+
+}
+
+.main
+{   
+    background-color:#fafafa;
+   
+}
+
+.navigation
+{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo img
+{
+    width: 30vw;;
+}
+.menu a 
+{
+    color:black;
+margin-right: 4px;
+text-decoration: none;
+}
+
+.menu a:hover
+{
+color:rgb(77, 77, 77);    
+}
+
+.menu a.active
+{
+color:white;    
+}
+
+.header
+{
+    height:40%;
+    background-image: url("background.png");
+    display:flex;
+}
