@@ -41,6 +41,10 @@ color:rgb(77, 77, 77);
 {
 color:white;    
 }
+#carticon
+{
+    height:10px;
+}
 
 .header
 {
@@ -84,6 +88,7 @@ color:white;
 .content
 {
 background-color:#c6ebec ;
+padding: 2% 18%;
 }
 
 .ask
