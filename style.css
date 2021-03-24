@@ -44,7 +44,31 @@ color:white;
 
 .header
 {
-    height:40%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height:60%;
     background-image: url("background.png");
     display:flex;
+    flex-direction: column;
+    
 }
+
+.Title
+{
+    /*margin-left:auto;
+    margin-right:auto;*/
+
+    margin:auto auto 10px auto;
+}
+
+#mainbutton
+{
+
+    background-color: black;
+    padding:5px;
+    color:white;
+    margin:0px auto auto auto;
+    
+}
+
