@@ -59,6 +59,7 @@ color:white;
     /*margin-left:auto;
     margin-right:auto;*/
 
+    font-size: 2rem;
     margin:auto auto 10px auto;
 }
 
@@ -66,7 +67,8 @@ color:white;
 {
 
     background-color: black;
-    padding:5px;
+    border-radius: 6%;
+    padding:9px 15px;
     color:white;
     margin:0px auto auto auto;
     
