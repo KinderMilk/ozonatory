@@ -91,6 +91,14 @@ background-color:#c6ebec ;
 padding: 2% 18%;
 }
 
+#odroczony
+{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid #b9b9b9;
+    
+}
+
 .ask
 {
     background-color: #1e9599;
