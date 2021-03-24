@@ -107,6 +107,22 @@ padding: 2% 18%;
     background-color: #1e9599;
     text-align: center;
 }
+
+
+#imie input
+{
+    
+    text-align: left;
+}
+#email input
+{
+    margin-top: 1%;
+    width: 100%;
+    
+    
+}
+
+
 #napisztekst
 {
     font-size: 30px;
@@ -131,3 +147,4 @@ text-align: center;
     justify-content: space-around;
    
 }
+
