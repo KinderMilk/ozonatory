@@ -14,7 +14,7 @@ body
 .navigation
 {
     margin-top: 10px;
-    width:90%;
+    width:70%;
     margin-left: auto;
     margin-right: auto;
 display:flex;
@@ -73,14 +73,18 @@ color:white;
 {
 
     
-    background-color: black;
-    border-radius: 6%;
-    padding:9px 15px;
+   
     
     margin:0px auto auto auto;
     
 }
 
+.button
+{
+    background-color: black;
+    border-radius: 6%;
+    padding:9px 15px;
+}
 .button a
 {
     color:white;
@@ -100,6 +104,7 @@ padding: 2% 18%;
     border-bottom: 2px solid #b9b9b9;
     
 }
+
 
 .ask
 {
@@ -130,6 +135,8 @@ padding: 2% 18%;
 {
     font-size: 30px;
 }
+
+
 .footer
 {
     padding: 2% ;
