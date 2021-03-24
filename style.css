@@ -66,11 +66,18 @@ color:white;
 #mainbutton
 {
 
+    
     background-color: black;
     border-radius: 6%;
     padding:9px 15px;
-    color:white;
+    
     margin:0px auto auto auto;
     
+}
+
+.button a
+{
+    color:white;
+    text-decoration: none;
 }
 
