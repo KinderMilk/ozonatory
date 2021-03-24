@@ -81,3 +81,17 @@ color:white;
     text-decoration: none;
 }
 
+.content
+{
+background-color:#c6ebec ;
+}
+
+.ask
+{
+    background-color: #1e9599;
+}
+.footer
+{
+    color: white;
+background-color: black;    
+}
