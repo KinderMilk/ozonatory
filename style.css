@@ -123,3 +123,10 @@ background-color: black;
 flex-direction: column;
 text-align: center;
 }
+.footeradresy
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+   
+}
