@@ -174,3 +174,25 @@ text-align: center;
    
 }
 
+
+/*  SKLEP  */
+
+.produkty
+{
+   
+    justify-content: space-evenly;
+    display:flex;
+    background-color: #c6ebec
+    
+}
+
+.zdjecie
+{
+    display:flex;
+    width: 10%;
+   
+}
+#produkt
+{
+width: 20px;
+}
