@@ -176,23 +176,36 @@ text-align: center;
 
 
 /*  SKLEP  */
-
-.produkty
+.tlo
 {
-   
-    justify-content: space-evenly;
-    display:flex;
     background-color: #c6ebec
+}
+.produkty
+{ 
+  
+    margin: 0 15%;
+        display: flex;
+        flex-wrap: wrap;
+      
+    
     
 }
 
 .zdjecie
 {
+    margin-top: 4vh;
     display:flex;
     width: 10%;
    
 }
-#produkt
+
+
+.zdjecie img
 {
-width: 20px;
+    
+width: 24vh;
+height: auto
+
+  }
+
 }
