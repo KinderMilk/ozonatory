@@ -176,17 +176,18 @@ text-align: center;
 
 
 /*  SKLEP  */
-.tlo
+.tlosklep
 {
-    background-color: #c6ebec
+    background-color: #c6ebec;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
 }
 .produkty
 { 
   
     margin: 0 15%;
-        display: flex;
-        flex-wrap: wrap;
-      
+    
     
     
 }
@@ -203,9 +204,35 @@ text-align: center;
 .zdjecie img
 {
     
-width: 24vh;
+width: 15vh;
 height: auto
 
   }
+.product-info > h5,h6
+{
+    margin:5px 0;
+    
+}
+.product-info{font-size: 20px; }
+
+
+@media screen and (max-width: 768px)
+{ /*main*/
+    .Title{font-size: 2.7vh;}
+    #ozonowaniegeneratorami{font-size: 5vh;}
+    .maintext{font-size: 2vh;}
+    #napisztekst{font-size: 28px;}
+    .footernapis{font-size: 10px;}
+    .footeradresy{font-size: 8px;}
+    #email input{height: 20%;}
+    /*sklep*/
+    
+
+}
+@media screen and (min-width: 1000px)
+{ 
+    .tlosklep{ grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .zdjecie img{  width: 24vh;height: auto  }
+    .product-info{font-size: 30px; }
 
 }
