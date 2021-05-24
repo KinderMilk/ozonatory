@@ -36,6 +36,17 @@ justify-content: space-between;
 margin-right: 0.5vh;
 text-decoration: none;
 }
+.burger
+{
+    display: none;
+}
+.burger div
+{
+width: 25px;
+height: 3px;
+background-color: black;
+margin: 5px;
+}
 
 .menu a:hover
 {
@@ -50,6 +61,7 @@ color:white;
 {
     height:10px;
 }
+
 
 .header
 {
@@ -69,7 +81,7 @@ color:white;
     margin-right:auto;*/
 
     text-align: center;
-    font-size: 6vh;
+    font-size: 4.5vh;
     margin:auto auto 10px auto;
 }
 
@@ -93,6 +105,11 @@ color:white;
 {
     color:white;
     text-decoration: none;
+}
+.button:hover{
+    transition: opacity 1s;
+opacity: 0.6;
+
 }
 
 #ozonowaniegeneratorami
@@ -181,6 +198,7 @@ text-align: center;
     background-color: #c6ebec;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 3vh;
    
 }
 .produkty
@@ -214,25 +232,84 @@ height: auto
     
 }
 .product-info{font-size: 20px; }
+/*USLUGI*/
+.tloUslugi
+{
+background-color: #c6ebec;
+padding: 20px 0;
+
+}
+#cennikTytul
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3vh;
+}
+
 
 
 @media screen and (max-width: 768px)
 { /*main*/
-    .Title{font-size: 2.7vh;}
+   body{
+       overflow-x: hidden;
+   }
     #ozonowaniegeneratorami{font-size: 5vh;}
     .maintext{font-size: 2vh;}
     #napisztekst{font-size: 28px;}
     .footernapis{font-size: 10px;}
     .footeradresy{font-size: 8px;}
     #email input{height: 20%;}
+    .menu
+    {
+        position:absolute;
+        width: 50%;
+        right:  0px;
+        height: 92vh;
+        top:0vh;
+        background-color: #c6ebec;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition:  transform 0.5s ease-in;
+    }
+    .menu a
+    {
+        opacity: 0;
+        font-size: 1.7vh;
+        padding-top: 15px;
+                
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+  
     /*sklep*/
-    
 
 }
 @media screen and (min-width: 1000px)
 { 
     .tlosklep{ grid-template-columns: 1fr 1fr 1fr 1fr;}
-    .zdjecie img{  width: 24vh;height: auto  }
+    .zdjecie img{  width: 24vh;height: auto;  }
     .product-info{font-size: 30px; }
 
+}
+@media screen and (max-width:1600px)
+{
+.Title
+{
+    font-size: 3vh;
+}
+
+}
+
+
+@keyframes buttonup {
+    
+}
+
+.menu-active
+{
+    transform: translateX(0%);
 }
