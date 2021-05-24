@@ -20,6 +20,7 @@ body
 display:flex;
 align-items: center;
 justify-content: space-between;
+padding-bottom: 5px;
 }
 
 .logo img
@@ -262,11 +263,11 @@ padding: 20px 0;
     .menu
     {
         position:absolute;
-        width: 50%;
+        width: 100%;
         right:  0px;
         height: 92vh;
-        top:0vh;
-        background-color: #c6ebec;
+        top:5.7vh;
+        background-color:white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -304,12 +305,18 @@ padding: 20px 0;
 
 }
 
-
-@keyframes buttonup {
-    
-}
-
-.menu-active
+.menuactive
 {
     transform: translateX(0%);
 }
+
+@keyframes menulinksfade {
+    from{opacity: 0;
+        transform: translateX(50px);}
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
